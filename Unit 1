@@ -105,5 +105,5 @@ E.g. (System.out.print(6.0 / 4); or System.out.print((double) 6 / 4);)
 # Topic 1.5(2):
 
 * The functions Integer.MAX_VALUE and Integer.MIN_VALUE are used to terminate the function when the assigned values pass its limit which are either integers are doubles but on doubles its upto 14-15 digits
-If the MIN or MAX values passes the limit it will cause an overflow error 
 
+*If the MIN or MAX values passes the limit it will cause an overflow error 
