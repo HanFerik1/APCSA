@@ -1,0 +1,75 @@
+### 1.1:
+
+# 1.1.3
+* You must spell things correctly, or at least consistently.
+* You must pay attention to case: names that differ only in case and punctuation is important
+* Java is in the family of programming languages that use curly braces ({}) to group together statements
+* You should match the indentation of your code to the structure created by your curly braces
+
+### 1.2:
+
+# 1.2.1
+* In Java every open curly brace { must have a matched close curly brace }. These are used to start and end class definitions and method definitions
+
+# 1.2.2
+* System.out.println moves the cursor to a new line after the information has been displayed, while System.out.print does not
+
+# 1.2.3
+* While debugging, the first thing we should do is describe our problem and then we will hunt for bugs. After that we will try out solutions. We can also document the bug later on
+* One of the best ways to debug if we find a bug in the early beginnings of the code is to delete the most of the part of the code that is after the bug so that we can ensure that the bug does not relate with our future code but
+
+# 1.2.4
+* Error messages aren’t always 100% accurate about where the error actually is; sometimes you actually need to change something a bit earlier in the program and sometimes a bit later.But the line number is the best place to start looking
+
+# 1.2.5
+* // is used to mark the beginning of a comment. For multi-line comments, use /* to start the comment and */ to end the comment
+
+1.3:
+
+# 1.3.1
+* A variable is a name associated with a memory location in the computer, where you can store a value that can change or vary
+
+# 1.3.2
+* int can represent integers, double can represent non-integer numbers and boolean can represent only two values: true and false. Also, String is one of the object types and is a sequence of characters enclosed in a pair of double quotes
+
+# 1.3.3
+* Variable declaration introduces a variable's name and type without assigning it a value, while variable initialization assigns an initial value to the variable at the time of declaration or afterward.
+* The keyword final can be used in front of a variable declaration to make it a constant that cannot be changed. Constants are traditionally capitalized
+
+# 1.3.4
+* Use meaningful variable names!
+* Start variable names with a lower case letter and use camelCase
+* Variable names are case-sensitive and spelling sensitive! Each use of the variable in the code must match the variable name in the declaration exactly
+* Never put variables inside quotes (” “)
+
+### 1.4:
+
+#1.4.1
+* Assignment statements set or update a variable's value using the = operator, with the variable on the left and an expression or value on the right
+
+# 1.4.4
+* An arithmetic expression consisting only of int values will evaluate to an int value. An arithmetic expression that uses at least one double value will evaluate to a double value
+* Java uses the operator == to test if the value on the left is equal to the value on the right and != to test if two items are not equal
+* When Java sees you doing integer division (or any operation with integers) it assumes you want an integer result so it throws away anything after the decimal point in the answer. This is called truncating division
+
+#1.4.5
+* The operator % in Java is the remainder operator. So, mathematically, it returns the remainder after dividing the first number by the second, using truncating integer division
+
+### 1.5:
+* Compound assignment operators (+=, -=, *=, /=, %=) can be used in place of the assignment operator
+* The increment operator (++) and decrement operator (--) are used to add 1 or subtract 1 from the stored value of a variable. The new value is assigned to the variable
+* The use of increment and decrement operators in prefix form (e.g., ++x) and inside other expressions (i.e., arr[x++]) is available in Java
+
+### 1.6:
+* Type casting is used to convert value from one type to another.
+* The casting operators (int) and (double) can be used to create a temporary value converted to a different data type
+* Casting a double value to an int causes the digits to the right of the decimal point to be truncated (cut off and thrown away)
+* In expressions involving doubles, the double values are contagious, causing ints in the expression to be automatically converted to the equivalent double value so the result of the expression can be computed as a double
+* Values of type double can be rounded to the nearest integer by (int)(x + 0.5) or (int)(x – 0.5) for negative numbers
+* Integer values in Java are represented by values of type int, which are stored using a finite amount (4 bytes) of memory. Therefore, an int value must be in the range from Integer.MIN_VALUE to Integer.MAX_VALUE, inclusive
+* If an expression would evaluate to an int value outside of the allowed range, an integer overflow occurs. This could result in an incorrect value within the allowed range
+
+
+
+
+
