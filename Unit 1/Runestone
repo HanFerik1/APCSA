@@ -69,6 +69,24 @@
 * Integer values in Java are represented by values of type int, which are stored using a finite amount (4 bytes) of memory. Therefore, an int value must be in the range from Integer.MIN_VALUE to Integer.MAX_VALUE, inclusive
 * If an expression would evaluate to an int value outside of the allowed range, an integer overflow occurs. This could result in an incorrect value within the allowed range
 
+### 1.12:
+* A method is a named block of code that only runs when it is called. A block of code is any section of code that is enclosed in braces.
+* Procedural abstraction allows a programmer to use a method by knowing what the method does even if they do not know how the method was written.
+* A method call interrupts the sequential execution of statements, causing the program to first execute the statements in the method before continuing. Once the last statement in the method has been executed or a return statement is executed, the flow of control is returned to the point immediately following where the method was called.
+* A parameter is a variable declared in the header of a method or constructor and can be used inside the body of the method. This allows values or arguments to be passed and used by a method or constructor.
+* A method signature for a method with parameters consists of the method name and the ordered list of parameter types. A method signature for a method without parameters consists of the method name and an empty parameter list.
+* An argument is a value that is passed into a method when the method is called. The arguments passed to a method must be compatible in number and order with the types identified in the parameter list of the method signature. When calling methods, arguments are passed using call by value.
+* Call by value initializes the parameters with copies of the arguments.
+* Methods are said to be overloaded when there are multiple methods with the same name but different signatures.
+
+### 1.13:
+* Class methods are associated with the class (not instances of the class which we will see in later lessons).
+* Class methods include the keyword static in the header before the method name.
+* A non-void method returns a value that is the same type as the return type in the header.
+* To use the return value when calling a non-void method, it must be stored in a variable or used as part of an expression. A void method does not have a return value and is therefore not called as part of an expression.
+* Common errors with methods are mismatches in the order or type of arguments, return values, and forgetting to do something with the value returned from a method. When you call a method that returns a value, you should do something with that value like assigning it to a variable or printing it out.
+* Class methods are typically called using the class name along with the dot operator. When the method call occurs in the defining class, the use of the class name is optional in the call.
+
 
 
 
