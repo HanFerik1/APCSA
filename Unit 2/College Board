@@ -1,1 +1,51 @@
+### 2.1:
+# 2.1(1):
+* A Class is a blueprint for creating object with the same behavior and defined attributes
+* An Object is a specific entity and instances of classes named by variables, made from a class, that we can manipulate in our program
+* Each object has behaviors and attributes that are defined by the class which does not affect to the behavior of other objects
 
+#2.1(2):
+* The changes on the object won't affect the other object that is defined under the same class so after a change on a object, the others will be unchanged
+
+### 2.2:
+# 2.2(1):
+* A signature consists of the constructor name and the parameter list
+* The parameter list lists the types of the values that are passed and the variable names
+* We can have more than one constructor, which means overloading and no-argument constructor has no parameters and it sets the instance variables for the object to default values
+* The actual parameters that are passed to a constructor must be compatible with the types identified in the parameter list
+* Java will match the data types of the constructors with the parameters that we have given
+* Parameters are passed using call by value which initializes the formal parameters with copies of the actual parameters
+
+# 2.2(2):
+* Every object is creating using the keyword new followed by a call to one of the class’s constructors
+* A class contains constructors that are invoked to create objects. They have the same name as the class
+* Existing classes and class libraries can be utilized as appropriate to create objects
+* Parameters allow values to be passed to the constructor to establish the initial state of the object
+
+# 2.2(3):
+The keyword null is a special value used to indicate that a reference is not associated with any object
+The memory associated with a variable of a reference type holds an object reference value or, if there is no object,null. This value iss the memory address of the referenced object
+
+### 2.3:
+# 2.3(1):
+* An object’s behavior refers to what the object can do and is defined by method
+* Procedural abstraction allows a programmer to use a method by knowing what the method does even if they do not know how the method is written
+* A method signature for a method without parameters consists of the method name and an empty parameter list which will set the values as default
+* A method or constructor call interrupts the sequential execution of statements, causing the program to first execute the statements in the method or constructor before continuing
+
+# 2.3(2):
+* Non-static methods are called through objects of the class
+* The dot operator is used along with the object name to call non-static methods
+* Void method do not have to return and are therefore not called as part of an expression
+* Using a null reference to call a method or access an instance variable causes a NullPointerException to be thrown
+
+### 2.4
+# 2.4(1 and 2):
+* A method signature for a method with parameters consists of the method name and an ordered list of parameter types
+* Values provided in the parameter list need to correspond to order and type in the method signature
+* Methods are said to be overloaded when there are multiple method with the same name but different signature
+
+### 2.5:
+# 2.5(1 and 2):
+* Non void methods are methods with actual types that we can return the output on another method so if we are using non void we can only output just one and single data types but if we are using void since void methods don’t have to return a value then we don’t need declare a type for the method
+* To use the return value when calling a non-void method, it must be stored in a variable or used as part of an expression
